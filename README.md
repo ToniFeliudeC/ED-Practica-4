@@ -17,7 +17,7 @@ Creamos la arama **main** y pusheamos todo del repositorio local al remoto.
 2. ```git branch -M main```
 3. ```git push -u origin main```
 
-##Refactorizaciones
+## Refactorizaciones
 
 1. Creamos una nueva rama en la que desarrollaremos nuevas versiones, funciones etc.
     + ```git branch "develop"```
