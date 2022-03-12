@@ -28,3 +28,6 @@ Creamos la arama **main** y pusheamos todo del repositorio local al remoto.
     + ```git commit -m [descripcionCommit]```
     + ```git push```(Si es la primera vez que hacemos push desde una rama habría que especificar el directorio remoto, sinó basta "git push")
 
+3. Para fusionar la branch "develop" y la branch "main" nos hemos de mover a la branch "main" mediante al comando "checkout" para posteriormente hacerle un merge con develop, de la siguiente manera:
+    + ```git checkout main```
+    + ```git merge develop```
