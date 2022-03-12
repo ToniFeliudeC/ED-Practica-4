@@ -17,5 +17,14 @@ Creamos la arama **main** y pusheamos todo del repositorio local al remoto.
 2. ```git branch -M main```
 3. ```git push -u origin main```
 
+##Refactorizaciones
 
+1. Creamos una nueva rama en la que desarrollaremos nuevas versiones, funciones etc.
+    + ```git branch "develop"```
+    + ```git checkout develop``` (Para cambiar de la main a "develop")
+
+2. Modificamos y refactorizamos los archivos que deseemos, y los añadimos al staging area para poder comittearlos y pushearlos, como anteriormente.
+    + ```git add .```
+    + ```git commit -m [descripcionCommit]```
+    + ```git push```(Si es la primera vez que hacemos push desde una rama habría que especificar el directorio remoto, sinó basta "git push")
 
